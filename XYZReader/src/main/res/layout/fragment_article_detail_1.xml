@@ -15,7 +15,6 @@
         android:fitsSystemWindows="true">
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/toolbard"
-            android:transitionName="@string/thumbnail"
 
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -26,6 +25,7 @@
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
                     android:id="@+id/photo"
+                    android:transitionName="@string/thumbnail"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     app:layout_collapseMode="parallax"

@@ -25,6 +25,10 @@
     </style>
 
 
+    <style name="Theme.Bacon.Home">
+        <item name="android:windowExitTransition" tools:targetApi="lollipop">@transition/exite</item>
+
+    </style>
 
 
 </resources>
